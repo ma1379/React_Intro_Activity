@@ -1,0 +1,1 @@
+This activity is meant to introduce students to React.
