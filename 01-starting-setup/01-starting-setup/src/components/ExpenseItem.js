@@ -1,5 +1,5 @@
-import React from 'React'
-import "./ExpenseItem.css"
+import React from 'react';
+import "./ExpenseItem.css";
 
 function ExpenseItem(){
     return (
