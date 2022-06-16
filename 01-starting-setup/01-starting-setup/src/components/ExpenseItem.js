@@ -7,7 +7,7 @@ function ExpenseItem() {
         <div>June 10th 2022</div>
         <div className='expense-item__description'>
             <h2>Expense Item!</h2>
-            <div className='expense-item_price'>$294.67</div>
+            <div className='expense-item__price'>$294.67</div>
         </div>
     </div>
     );
