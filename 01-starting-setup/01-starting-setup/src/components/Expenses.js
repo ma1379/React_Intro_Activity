@@ -1,6 +1,7 @@
 import React from 'react';
 import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
+import Card from "./Card.js.js.js"
 function Expenses(props) {
     return (
         <Card className = "expenses">
