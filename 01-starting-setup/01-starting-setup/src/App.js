@@ -2,6 +2,10 @@ import React from 'react';
 import Expenses from "./components/Expenses";
 import newExpense from './components/newExpense/newExpense.js';
 function App() {
+  function addExpenseHandler(expense) {
+    console.log("In app.js")
+    console.log(expense)
+  }
   const expenses = [
     {
       id: 'e1',
@@ -25,7 +29,7 @@ function App() {
   ];
   return (
     <div>
-      <newExpense></newExpense>
+      <newExpense onAddExpense = {addExpenseHandler}></newExpense>
       <Expenses items = {expenses}></Expenses>
      </div>
   );
